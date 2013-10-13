@@ -1,0 +1,8 @@
+<!ENTITY prefwindow.title "Preferenze di inserimento Furigana">
+<!ENTITY pane1.title "Preferenze di inserimento Furigana">
+<!ENTITY exclusion_kanji.label "Kanji da escludere dall'inserimento del Furigana">
+<!ENTITY exclusion_kanji.accesskey "E">
+<!ENTITY process_link_text.label "Includi testo dentro ai links">
+<!ENTITY process_link_text.accesskey "L">
+<!ENTITY show_translation_popups.label "Show popup translations">
+<!ENTITY show_translation_popups.accesskey "T">

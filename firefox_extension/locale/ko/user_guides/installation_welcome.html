@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<title>Furigana Injector에 오신 것을 환영합니다</title>
+	<link rel="stylesheet" type="text/css" media="all" href="../../content/user_guides/user_guides.css" />
+</head>
+<body class="fi_help_page">
+	<div id="central_content">
+
+		<p><span id="start_word">Firefox</span> 브라우저에 후리가나 표시 기능이 설치되었습니다.(후리가나란, 어려운 한자의 읽는 법을 그 위나 옆에 작게 써주는 것입니다.) <strong>실행해 보기</strong> - 상태바의 <img style="position: relative; top: 3px; border-style: solid; border-width: 1px; border-color: #808080;" src="chrome://furiganainjector/skin/status_icon/default.png"alt="振" /> 아이콘을 클릭해 보세요.</p>
+		<q>1952年、医学生だったチェ・ゲバラが友人と二人でオートバイにまたがり、アルゼンチンからペルーまでの南米大陸6,400キロを縦断するというストーリーです。旅先で様々な人に出会い、トラブルにも巻き込まれ失恋もしました。南米大陸の民族、貧困、差別などに向き合い懸命に生きている人々に深い同情と愛を深め、大人に成長していきます。この映画の製作・総監督は、監督作品も多いハリウッドの名優ロバート・レッドフォードで、いわゆる革命や思想を描いた映画にはしたくなかったそうです。</q>
+
+		<h2 id="starting_steps_header">먼저 무엇을 해야합니까?</h2>
+
+		<div id="HTML_Ruby_addon_div">
+			<h3><a href="https://addons.mozilla.org/firefox/addon/6812" target="HTML-Ruby-add-on-page">HTML Ruby 확장기능을 설치하세요.</a></h3>
+			<p>(mozilla.org에 있는 kailapis의 해당 확장기능으로의 링크입니다.)</p>
+			<table class="ruby_simulation"><tr>
+				<td width="160">ruby 설치시: </td>
+				<td>
+					<td><table class="ruby_simulation"><tr><td class="forced_rt">とうきょう</td><td></td><td class="forced_rt">おおさか</td><td></td></tr>
+						<tr><td>東京</td><td>から</td><td>大阪</td><td>までの...</td></tr></table></td>
+				</td>
+			</tr></table>
+			<table><tr>
+				<td width="160">ruby 미설치시: </td>
+				<td>東京（とうきょう）から大阪（おおさか）までの...</td>
+			</tr></table>
+		</div>
+
+		<div id="RubyService_KanjiSelector">
+			<h3><a href="simple_kanji_level_selector.html">당신의 한자 읽기 능력을 설정해 주세요.</a></h3>
+			<p>후리가나를 표시하고 싶은 한자가 어떤 것인지 선택해 주세요.</p>
+		</div>
+
+		<div id="No_RubyService_KanjiSelector" style="display: none;">
+			<h3>당신의 한자 읽기 능력을 설정해 주세요.</h3>
+			<p>메뉴의 "설정..." (아래를 참조하세요)을 이용하여 후리가나를 표시하지 않을 한자의 목록을 설정할 수 있습니다. <strong>주의:</strong> 이미 HTML Ruby 확장기능을 설치했다면, <a href="simple_kanji_level_selector.html">한자 선택 페이지</a> 를 이용하여 더 간편하게 설정할 수 있습니다.</p>
+		</div>
+
+		<br/>
+		<p><span id="start_word">이제</span> 일본어가 있는 아무 웹페이지에서나 이 프로그램을 사용하면 됩니다. <a href="http://www.mozilla.gr.jp/">www.mozilla.gr.jp</a>가 좋은 예입니다:
+			<ul>
+			<li>쉬운 한자로만 구성된 단어는 후리가나가 표시되지 않습니다.</li>
+			<li>따로 설정에서 바꿔주기 전에는, 링크 안의 단어들도 후리가나가 표시되지 않습니다.</li>
+			<li>이미지 안에 있는 글자들은 후리가나가 표시되지 않습니다.</li>
+			</ul>
+		</p>
+		
+		<div id="privacy_warning">
+		<h3>개인 정보 관련 알림</h3>
+		<p>2.0버전부터는 텍스트가 원격 서버에서 처리됩니다. 개인 정보가 포함된 웹페이지에서는 이 확장기능을 사용하지 말아주십시오.</p>
+		</div>
+
+		<br/>
+		<h3 class="fakelink" onclick="document.getElementById('options_explanation_div').style.display = 'block'; this.className = ''; this.innerHTML = '기타 설정'; this.onclick='';">기타 설정 ...</h3>
+		<div id="options_explanation_div" style="display: none;">
+			<ul>
+				<li>링크 안의 한자에도 후리가나가 표시되도록 선택할 수 있습니다.</li>
+			</ul>
+			<p>위 선택옵션들은 <img  style="position: relative; top: 3px; border-style: solid; border-width: 1px; border-color: #808080;" src="chrome://furiganainjector/skin/status_icon/default.png"alt="振" /> 아이콘에 마우스 우클릭을 함으로써 선택할 수 있습니다.</p>
+			<p style="padding-left: 20px;"><img src="sb_context_menu_sample.png" alt="context menu sample"/></p>
+		</div>
+
+		<div id="project_homepage">
+			<h3><a href="http://code.google.com/p/furigana-injector/">개발자 홈페이지</a></h3>
+		</div>
+
+		<div id="donation_request">
+			<h3><a href="http://code.google.com/p/furigana-injector/">맘에 들어요?</a></h3>
+				<form style="display: inline;" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<p>페이팔(Paypal) 기부해주시면 감사하겠습니다 ...
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+				<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</p>
+		</div>
+
+		<img id="sb_icon_indicator_img" src="chrome://furiganainjector/content/user_guides/sb_icon_arrow.png" alt="振"
+			style="visibility: hidden; position: fixed; bottom: 5px; right: 300px;" onmouseover="var evt = document.createEvent('Events'); evt.initEvent('HideAttentionArrow', true, false); this.dispatchEvent(evt);"/>
+
+	</div>
+
+	<div id="full_page_shade" style="display: none;"></div>
+	<div id="modal_message_area" style="display: none;">
+		<button onclick='document.getElementById("full_page_shade").style.display = "none"; document.getElementById("modal_message_area").style.display = "none";'>OK</button>
+	</div>
+</body>
+</html>

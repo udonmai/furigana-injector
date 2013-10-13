@@ -1,0 +1,15 @@
+<!ENTITY FuriganaSubmenu.label "ふりがな ...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "ふりがなを振る">
+<!ENTITY InjectContextFurigana.accesskey "F">
+<!ENTITY InjectFuriganaWholePage.label "ふりがなを振る (ページの全部)">
+<!ENTITY InjectFuriganaWholePage.accesskey "W">
+<!ENTITY RemoveFuriganaWholePage.label "ふりがなを消す">
+<!ENTITY RemoveFuriganaWholePage.accesskey "R">
+
+<!ENTITY fi_help_welcome.label "ようこそのページ…">
+<!ENTITY fi_help_welcome.accesskey "W">
+<!ENTITY fi_open_options.label "オプション…">
+<!ENTITY fi_open_options.accesskey "O">
+<!ENTITY fi_process_link_text.label "リンクも含む">
+<!ENTITY fi_process_link_text.accesskey "L">

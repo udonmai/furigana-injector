@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/157/trunk/firefox_extension
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/157/trunk/firefox_extension/license.txt
+END
+install.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/157/trunk/firefox_extension/install.rdf
+END
+chrome.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/157/trunk/firefox_extension/chrome.manifest
+END

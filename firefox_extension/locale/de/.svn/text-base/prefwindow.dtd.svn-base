@@ -1,0 +1,8 @@
+﻿<!ENTITY prefwindow.title "Furigana Injector Einstellungen">
+<!ENTITY pane1.title "Furigana Injector Einstellungen">
+<!ENTITY exclusion_kanji.label "Vom Furigana-Einsatz auszuschliesende Kanji">
+<!ENTITY exclusion_kanji.accesskey "E">
+<!ENTITY process_link_text.label "Text in Links einbeziehen">
+<!ENTITY process_link_text.accesskey "L">
+<!ENTITY show_translation_popups.label "Show popup translations">
+<!ENTITY show_translation_popups.accesskey "T">

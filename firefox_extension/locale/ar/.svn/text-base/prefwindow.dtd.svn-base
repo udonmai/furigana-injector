@@ -1,0 +1,8 @@
+﻿<!ENTITY prefwindow.title "تفضيلات حاقن الفوريغانا">
+<!ENTITY pane1.title "تفضيلات حاقن الفوريغانا">
+<!ENTITY exclusion_kanji.label "الكانجي المستبعدة التي سيتم استثناؤها من حاقن الفوريغانا">
+<!ENTITY exclusion_kanji.accesskey "E">
+<!ENTITY process_link_text.label "تضمين النص داخل الوصلات">
+<!ENTITY process_link_text.accesskey "L">
+<!ENTITY show_translation_popups.label "Show popup translations">
+<!ENTITY show_translation_popups.accesskey "T">

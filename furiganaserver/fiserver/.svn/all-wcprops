@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/160/trunk/furiganaserver/fiserver
+END
+http_req_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/158/trunk/furiganaserver/fiserver/http_req_tests.py
+END
+test_performance.log
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/158/trunk/furiganaserver/fiserver/test_performance.log
+END
+unit_tests.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/fiserver/unit_tests.c
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/160/trunk/furiganaserver/fiserver/server.c
+END
+raw_http_req_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/160/trunk/furiganaserver/fiserver/raw_http_req_tests.py
+END
+ficommon.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/158/trunk/furiganaserver/fiserver/ficommon.c
+END
+ficommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/158/trunk/furiganaserver/fiserver/ficommon.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/158/trunk/furiganaserver/fiserver/Makefile
+END

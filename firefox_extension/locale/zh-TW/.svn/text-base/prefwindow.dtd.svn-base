@@ -1,0 +1,8 @@
+﻿<!ENTITY prefwindow.title "振假名植入器優先選項">
+<!ENTITY pane1.title "振假名植入器優先選項">
+<!ENTITY exclusion_kanji.label "不包含在振假名處理範圍內的日文漢字詞匯">
+<!ENTITY exclusion_kanji.accesskey "E">
+<!ENTITY process_link_text.label "包含嵌入鏈接的文字">
+<!ENTITY process_link_text.accesskey "L">
+<!ENTITY show_translation_popups.label "Show popup translations">
+<!ENTITY show_translation_popups.accesskey "T">

@@ -1,0 +1,87 @@
+/*Force default CSS properties for nearly all our classes*/
+div#rd_gd_wrapper, 
+ruby.ruby_doppleganger,
+ruby.ruby_doppleganger rt,
+div#fi_gloss_div.hover_gloss, 
+div#fi_gloss_div ul.p.q.r,	/*Extra classes added to make these rules more likely to get CSS rule precedence*/
+div#fi_gloss_div ol.p.q.r, 
+div#fi_gloss_div  li.s.t.u,
+div#fi_gloss_div.waiting {
+	text-indent: 0 !important;
+	width: auto !important;
+	text-decoration: none !important;
+	text-align: left !important;
+	float: none !important;
+	background: none !important;
+	height: auto !important;
+	width: auto !important;
+}
+
+div#rd_gd_wrapper {
+	border-radius: 4px !important;
+	box-shadow: -1px 1px 1px #A0A0A0 !important;
+}
+
+ruby.ruby_doppleganger rt {
+	color: black !important;
+	background-color: #ffffff !important;
+	border-top-left-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+	box-shadow: /*3px 3px 2px #A0A0A0,*/ -1px -1px 1px #A0A0A0 !important;
+}
+
+ruby.ruby_doppleganger {
+	color: black !important;
+	z-index: 2 !important;
+	background-color: #ffffff !important;
+}
+
+div#fi_gloss_div.hover_gloss {
+	color: #402396 !important;
+	z-index: 3 !important;
+	background-color: #ffffff !important;
+	background-image: url(chrome://furiganainjector/skin/gloss_div_upper_border.png) !important;
+	background-repeat: no-repeat !important;
+	padding: 1px 1px 1px 5px !important;
+	border-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+	box-shadow: 3px 3px 2px #a0a0a0/*, -1px 1px 1px #A0A0A0*/ !important;
+}
+div#fi_gloss_div.hover_gloss img {
+	padding-right: 6px !important;
+}
+
+div#fi_gloss_div ul.p.q.r,	/*Extra classes added to make these rules more likely to get CSS rule precedence*/
+div#fi_gloss_div ol.p.q.r {
+	padding: 0px 1px 0px 0px !important;
+	margin: 0 2px 1px 0 !important;
+	background: none !important;
+	border-style: none !important;
+	position: static !important;
+	text-indent: 0 !important;
+	width: auto !important;
+}
+div#fi_gloss_div  li.s.t.u {	/*Extra classes added to make these rules more likely to get CSS rule precedence*/
+	list-style-type: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	display: list-item !important;
+	border-style: none !important;
+}
+div#fi_gloss_div  li.s.t.u:nth-child(odd) {
+	background-color: #ffffff !important;
+}
+div#fi_gloss_div  li.s.t.u:nth-child(even) {
+	background-color: #fffded !important;
+}
+div#fi_gloss_div  li.s.t.u br {	/*I once found a page rule that suppressed <br> elements ...*/
+	display: block !important;
+}
+
+div#fi_gloss_div.waiting {
+	height: 15px;
+	width: 47px;
+	padding: 2px;
+	background-image: url(chrome://furiganainjector/skin/gloss_div_throbber.gif);
+}

@@ -1,0 +1,15 @@
+<!ENTITY FuriganaSubmenu.label "Furigana ...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "Tambahkan">
+<!ENTITY InjectContextFurigana.accesskey "T">
+<!ENTITY InjectFuriganaWholePage.label "Tambahkan untuk Seluruh Isi Laman">
+<!ENTITY InjectFuriganaWholePage.accesskey "L">
+<!ENTITY RemoveFuriganaWholePage.label "Hapus Furigana">
+<!ENTITY RemoveFuriganaWholePage.accesskey "H">
+
+<!ENTITY fi_help_welcome.label "Laman 'Selamat Datang' ...">
+<!ENTITY fi_help_welcome.accesskey "S">
+<!ENTITY fi_open_options.label "Pengaturan ...">
+<!ENTITY fi_open_options.accesskey "P">
+<!ENTITY fi_process_link_text.label "Tambahkan Juga untuk Tautan">
+<!ENTITY fi_process_link_text.accesskey "n">

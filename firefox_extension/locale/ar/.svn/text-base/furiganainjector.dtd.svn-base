@@ -1,0 +1,15 @@
+﻿<!ENTITY FuriganaSubmenu.label "الفوريغانا...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "أحقن">
+<!ENTITY InjectContextFurigana.accesskey "I">
+<!ENTITY InjectFuriganaWholePage.label "أحقن (كامل الصفحة)">
+<!ENTITY InjectFuriganaWholePage.accesskey "W">
+<!ENTITY RemoveFuriganaWholePage.label "أزل الفوريغانا">
+<!ENTITY RemoveFuriganaWholePage.accesskey "R">
+
+<!ENTITY fi_help_welcome.label "صفحة البداية">
+<!ENTITY fi_help_welcome.accesskey "W">
+<!ENTITY fi_open_options.label "الخيارات...">
+<!ENTITY fi_open_options.accesskey "O">
+<!ENTITY fi_process_link_text.label "تضمين الوصلات">
+<!ENTITY fi_process_link_text.accesskey "L">

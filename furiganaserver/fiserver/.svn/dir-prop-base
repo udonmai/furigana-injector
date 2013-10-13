@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 63
+fiserver
+unit_tests
+fiserver.access.log
+fiserver.err.log
+core*
+
+END

@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<title>Furigana Injector unit tests</title>
+	<!--link rel="stylesheet" type="text/css" media="all" href="tests.css" /-->
+</head>
+<body>
+	<h3 id="loading_header">Loading ..</h3>
+	<p id="loading_paragraph">If this paragraph doesn't dissappear it indicates there was an error in the page load. Investigate the FuriganaInjectorUnitTester.openTestTab() function and it's connected functions.</p>
+	<div id="test_lists_div">
+	</div><!-- end "test_lists_div" -->
+
+</body>
+</html>

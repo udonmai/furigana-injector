@@ -1,0 +1,15 @@
+<!ENTITY FuriganaSubmenu.label "Furigana ...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "Injecteer">
+<!ENTITY InjectContextFurigana.accesskey "I">
+<!ENTITY InjectFuriganaWholePage.label "Hele pagina injecteren">
+<!ENTITY InjectFuriganaWholePage.accesskey "H">
+<!ENTITY RemoveFuriganaWholePage.label "Furigana verwijderen">
+<!ENTITY RemoveFuriganaWholePage.accesskey "R">
+
+<!ENTITY fi_help_welcome.label "'Welkom' pagina ...">
+<!ENTITY fi_help_welcome.accesskey "W">
+<!ENTITY fi_open_options.label "Opties ...">
+<!ENTITY fi_open_options.accesskey "O">
+<!ENTITY fi_process_link_text.label "Links toevoegen">
+<!ENTITY fi_process_link_text.accesskey "L">

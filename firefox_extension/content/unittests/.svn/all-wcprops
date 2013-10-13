@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/157/trunk/firefox_extension/content/unittests
+END
+unittester.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/157/trunk/firefox_extension/content/unittests/unittester.js
+END
+furiganainjector.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/157/trunk/firefox_extension/content/unittests/furiganainjector.js
+END
+tests.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/157/trunk/firefox_extension/content/unittests/tests.html
+END
+vocabadjuster.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/157/trunk/firefox_extension/content/unittests/vocabadjuster.js
+END

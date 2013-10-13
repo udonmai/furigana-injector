@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/174/trunk/chrome_extension
+END
+ruby_gloss.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/164/trunk/chrome_extension/ruby_gloss.css
+END
+activate_wwwjdic_lookup.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/166/trunk/chrome_extension/activate_wwwjdic_lookup.js
+END
+css_fontsize_fix_for_rt.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/164/trunk/chrome_extension/css_fontsize_fix_for_rt.js
+END
+text_to_furigana_dom_parse.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/170/trunk/chrome_extension/text_to_furigana_dom_parse.js
+END
+viewedTextCountOff.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/164/trunk/chrome_extension/viewedTextCountOff.js
+END
+jquery-2.0.2.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/170/trunk/chrome_extension/jquery-2.0.2.js
+END
+kanji_content_detect.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/171/trunk/chrome_extension/kanji_content_detect.js
+END
+background.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/174/trunk/chrome_extension/background.js
+END
+server_selector_obj.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/165/trunk/chrome_extension/server_selector_obj.js
+END
+manifest.json
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/174/trunk/chrome_extension/manifest.json
+END

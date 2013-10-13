@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/158/trunk/furiganaserver/mongoose/examples
+END
+chat.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/158/trunk/furiganaserver/mongoose/examples/chat.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/158/trunk/furiganaserver/mongoose/examples/Makefile
+END
+ssl_cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/158/trunk/furiganaserver/mongoose/examples/ssl_cert.pem
+END

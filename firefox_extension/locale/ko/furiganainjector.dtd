@@ -1,0 +1,17 @@
+﻿<!ENTITY FuriganaSubmenu.label "후리가나 ...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "표시">
+<!ENTITY InjectContextFurigana.accesskey "I">
+<!ENTITY InjectFuriganaWholePage.label "표시 (전체 페이지)">
+<!ENTITY InjectFuriganaWholePage.accesskey "W">
+<!ENTITY RemoveFuriganaWholePage.label "후리가나 표시안함">
+<!ENTITY RemoveFuriganaWholePage.accesskey "R">
+
+<!ENTITY fi_help_welcome.label "'첫시작' 페이지 ...">
+<!ENTITY fi_help_welcome.accesskey "W">
+<!ENTITY fi_process_all_pages.label "모든 웹페이지에서 자동실행">
+<!ENTITY fi_process_all_pages.accesskey "P">
+<!ENTITY fi_open_options.label "설정 ...">
+<!ENTITY fi_open_options.accesskey "O">
+<!ENTITY fi_process_link_text.label "링크 안의 한자에도 후리가나 표시">
+<!ENTITY fi_process_link_text.accesskey "L">

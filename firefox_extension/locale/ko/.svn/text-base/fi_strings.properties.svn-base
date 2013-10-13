@@ -1,0 +1,5 @@
+#N.B. This file requires unicode literals for non-ascii, e.g. "uninstallConfirmMessage=XHTML\u30eb\u30d3\u30b5...."
+menuLabelShowFuriganaForX=%1$S \uC5D0 \uB300\uD55C \uD6C4\uB9AC\uAC00\uB098 \uD45C\uC2DC
+menuLabelIgnoreFuriganaForX=%1$S \uC5D0 \uB300\uD55C \uD6C4\uB9AC\uAC00\uB098 \uD45C\uC2DC\uC548\uD568
+alertExclusionKanjiSetToX=\uC790\uC8FC \uC4F0\uC774\uB294 %1$S \uAE00\uC790\uC758 \uD55C\uC790\uC5D0 \uB300\uD574 \uD6C4\uB9AC\uAC00\uB098\uB97C \uD45C\uC2DC\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.
+tooltipTextNoFuriganaServerFound=\uC11C\uBC84\uC5D0 \uC5F0\uACB0\uD560 \uC218\uC5C6\uC2B5\uB2C8\uB2E4

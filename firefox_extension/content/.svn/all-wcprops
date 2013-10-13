@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/157/trunk/firefox_extension/content
+END
+options.xul
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/157/trunk/firefox_extension/content/options.xul
+END
+furiganainjector.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/157/trunk/firefox_extension/content/furiganainjector.js
+END
+vocabadjuster.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/157/trunk/firefox_extension/content/vocabadjuster.js
+END
+furigana_logo_32_32.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/157/trunk/firefox_extension/content/furigana_logo_32_32.png
+END
+overlay.xul
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/157/trunk/firefox_extension/content/overlay.xul
+END
+server_selector_obj.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/157/trunk/firefox_extension/content/server_selector_obj.js
+END
+jquery-1.4.4.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/157/trunk/firefox_extension/content/jquery-1.4.4.js
+END

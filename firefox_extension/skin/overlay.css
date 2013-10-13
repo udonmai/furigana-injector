@@ -1,0 +1,32 @@
+menu#furigana-injector-menu-lbl {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/default.png");
+}
+
+statusbarpanel#furiganainjector-statusbarpanel {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/default.png");
+}
+
+statusbarpanel#furiganainjector-statusbarpanel[processing_state="processed"] {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/processed.png");
+}
+
+statusbarpanel#furiganainjector-statusbarpanel[processing_state="disabled"] {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/disabled.png");
+}
+
+statusbarpanel#furiganainjector-statusbarpanel[processing_state="processing"] {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/processing.png");
+}
+
+statusbarpanel#furiganainjector-statusbarpanel[processing_state="failed"] {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/failed.png");
+}
+
+statusbarpanel#furiganainjector-statusbarpanel[processing_state="partially_processed"] {
+	list-style-image: url("chrome://furiganainjector/skin/status_icon/partially_processed.png");
+}
+
+/**********************************************************
+ *	Alternative idea for the statusbarpanel icons: set the background to be the default.png, for all processing states except disabled.
+ *	  For each other processing state, apply the list-style-image of just the tick, cross, etc.
+ **********************************************************/

@@ -1,0 +1,82 @@
+body.fi_help_page * {
+	font-family: helvetica;	
+}
+
+body.fi_help_page {
+	padding: 10px 60px;
+}
+
+div#central_content{
+	margin: 60px 160px;
+}
+
+div#central_content q {
+	line-height: 200%;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+#start_word {
+	font-size: 150%;
+}
+
+.forced_rt {
+	font-size: 8pt;
+}
+
+table.ruby_simulation td {
+	padding: 0;
+	margin: 0;
+}
+
+table#kanji_selector_table {
+}
+
+table#kanji_selector_table td#bunron_examples p {
+	text-indent: 20pt;
+}
+
+.fakelink {
+	text-decoration: underline;
+	color: blue;
+}
+
+.fakelink:hover {
+	cursor: pointer;
+}
+
+div#full_page_shade {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff; 
+	opacity: 0.85;
+}
+
+div#modal_message_area {
+	margin: 60px 160px;
+	padding: 10px 30px 30px 30px;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 75%;
+	opacity: 1.0;
+	background-color: #ffffff; 
+	border: 1px solid #A0A0A0;
+	-moz-box-shadow: 8px 8px 5px #888888;
+	font-size: 1.1em;
+}
+
+div#modal_message_area button {
+	text-align: center;
+	margin-left: 45%;
+	font-size: 1.1em;
+}
+

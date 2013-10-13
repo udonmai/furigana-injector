@@ -1,0 +1,5 @@
+#N.B. This file requires unicode literals for non-ascii, e.g. "uninstallConfirmMessage=XHTML\u30eb\u30d3\u30b5...."
+menuLabelShowFuriganaForX=Tambahkan furigana untuk %1$S
+menuLabelIgnoreFuriganaForX=Abaikan furigana untuk %1$S
+alertExclusionKanjiSetToX=Pengaturan 'pengecualian kanji' Anda telah disetel untuk kanji %1$S yang paling sering digunakan.
+tooltipTextNoFuriganaServerFound=Tidak Furigana server yang ditemukan

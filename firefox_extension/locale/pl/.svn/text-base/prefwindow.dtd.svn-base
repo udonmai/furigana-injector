@@ -1,0 +1,8 @@
+﻿<!ENTITY prefwindow.title "Preferencje nanoszenia furigany">
+<!ENTITY pane1.title "Preferencje nanoszenia furigany">
+<!ENTITY exclusion_kanji.label "Kanji wykluczane z nanoszenia furigany">
+<!ENTITY exclusion_kanji.accesskey "w">
+<!ENTITY process_link_text.label "Uzupełniaj tekst wewnątrz odnośników">
+<!ENTITY process_link_text.accesskey "o">
+<!ENTITY show_translation_popups.label "Show popup translations">
+<!ENTITY show_translation_popups.accesskey "T">

@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<title>Welcome to Furigana Injector</title>
+	<link rel="stylesheet" type="text/css" media="all" href="../../content/user_guides/user_guides.css" />
+</head>
+<body class="fi_help_page">
+	<div id="central_content">
+	
+		<p><span id="start_word">Now</span> your Firefox browser has the function to inject furigana, the small hiragana letters above or beside difficult kanji words. <strong>Try it</strong> - click the <img style="position: relative; top: 3px; border-style: solid; border-width: 1px; border-color: #808080;" src="chrome://furiganainjector/skin/status_icon/default.png"alt="振" /> icon in the statusbar.</p>
+		<q>1952年、医学生だったチェ・ゲバラが友人と二人でオートバイにまたがり、アルゼンチンからペルーまでの南米大陸6,400キロを縦断するというストーリーです。旅先で様々な人に出会い、トラブルにも巻き込まれ失恋もしました。南米大陸の民族、貧困、差別などに向き合い懸命に生きている人々に深い同情と愛を深め、大人に成長していきます。この映画の製作・総監督は、監督作品も多いハリウッドの名優ロバート・レッドフォードで、いわゆる革命や思想を描いた映画にはしたくなかったそうです。</q>
+
+		<h2 id="starting_steps_header">What should I do first?</h2>
+
+		<div id="HTML_Ruby_addon_div">
+			<h3><a href="https://addons.mozilla.org/firefox/addon/6812" target="HTML-Ruby-add-on-page">Install the HTML Ruby extension</a></h3>
+			<p>(A link to mozilla.org's  page for the add-on developed by <b>kailapis</b>. Please note there is no problem if you use Shimoda Hiroshi's <a href="https://addons.mozilla.org/en-US/firefox/addon/1935">XHTML Ruby Support</a> add-on instead.)</p>
+			<table class="ruby_simulation"><tr>
+				<td width="160">With ruby support:</td>
+				<td>
+					<td><table class="ruby_simulation"><tr><td class="forced_rt">とうきょう</td><td></td><td class="forced_rt">おおさか</td><td></td></tr>
+						<tr><td>東京</td><td>から</td><td>大阪</td><td>までの...</td></tr></table></td>
+				</td>
+			</tr></table>
+			<table><tr>
+				<td width="160">Without ruby support: </td>
+				<td>東京（とうきょう）から大阪（おおさか）までの...</td>
+			</tr></table>
+		</div>
+
+		<div id="RubyService_KanjiSelector">
+			<h3><a href="simple_kanji_level_selector.html">Select your kanji-reading level</a></h3>
+			<p>Choose the kanji you do and don't want furigana for.</p>
+		</div>
+
+		<div id="No_RubyService_KanjiSelector" style="display: none;">
+			<h3>Set your kanji-reading level</h3>
+			<p>Use the "Options..." (see below) to set the list of the kanji you don't need furigana for. <strong>Note:</strong> if you have already installed the HTML Ruby addon there is a <a href="simple_kanji_level_selector.html">quick and easy Kanji-selecting page</a> you can use instead.</p>
+		</div>
+
+		<br/>
+		<p><span id="start_word">Then</span> use this tool in any web page that has japanese text. <a href="http://www.mozilla.gr.jp/">www.mozilla.gr.jp</a> is a good example that shows:
+			<ul>
+			<li>Words composed of simple kanji won't be processed at all.</li>
+			<li>Words in links wont be processed, unless you change the preference for that.</li>
+			<li>Images are ignored so text in graphics won't be changed, sorry.</li>
+			</ul>
+		</p>
+		
+		<div id="privacy_warning">
+		<h3>Privacy notice</h3>
+		<p>Please note that from version 2.0 the text is processed on a remote server. Simply do not use Furigana Injector on pages or paragraphs or sentences that have personal information.</p>
+		</div>
+
+		<br/>
+		<h3 class="fakelink" onclick="document.getElementById('options_explanation_div').style.display = 'block'; this.className = ''; this.innerHTML = 'Other options'; this.onclick='';">Other options ...</h3>
+		<div id="options_explanation_div" style="display: none;">
+			<ul>
+				<li>You can choose to add furigana to text in hyperlinks as well as normal text.</li>
+				<li>Pop-up translations from WWWJDIC can be shown when mousing-over furigana.</li>
+			</ul>
+			<p>These options can be accessed directly by right-clicking on the  <img  style="position: relative; top: 3px; border-style: solid; border-width: 1px; border-color: #808080;" src="chrome://furiganainjector/skin/status_icon/default.png"alt="振" /> icon.</p>
+			<p style="padding-left: 20px;"><img src="sb_context_menu_sample.png" alt="context menu sample"/></p>
+		</div>
+
+		<div id="project_homepage">
+			<h3><a href="http://code.google.com/p/furigana-injector/">Development homepage</a></h3>
+		</div>
+
+		<div id="donation_request">
+			<h3><a href="http://code.google.com/p/furigana-injector/">Like it?</a></h3>
+				<form style="display: inline;" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<p>Paypal donations appreciated ...
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+				<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</p>
+		</div>
+
+		<img id="sb_icon_indicator_img" src="chrome://furiganainjector/content/user_guides/sb_icon_arrow.png" alt="振"
+			style="visibility: hidden; position: fixed; bottom: 5px; right: 300px;" onmouseover="var evt = document.createEvent('Events'); evt.initEvent('HideAttentionArrow', true, false); this.dispatchEvent(evt);"/>
+
+	</div>
+
+	<div id="full_page_shade" style="display: none;"></div>
+	<div id="modal_message_area" style="display: none;">
+		<button onclick='document.getElementById("full_page_shade").style.display = "none"; document.getElementById("modal_message_area").style.display = "none";'>OK</button>
+	</div>
+</body>
+</html>

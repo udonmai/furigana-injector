@@ -1,0 +1,17 @@
+﻿<!ENTITY FuriganaSubmenu.label "振假名...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "植入">
+<!ENTITY InjectContextFurigana.accesskey "F">
+<!ENTITY InjectFuriganaWholePage.label "植入 (整页)">
+<!ENTITY InjectFuriganaWholePage.accesskey "W">
+<!ENTITY RemoveFuriganaWholePage.label "移除振假名">
+<!ENTITY RemoveFuriganaWholePage.accesskey "R">
+
+<!ENTITY fi_help_welcome.label "欢迎页面...">
+<!ENTITY fi_help_welcome.accesskey "W">
+<!ENTITY fi_process_all_pages.label "在所有页面上执行">
+<!ENTITY fi_process_all_pages.accesskey "P">
+<!ENTITY fi_open_options.label "选择...">
+<!ENTITY fi_open_options.accesskey "O">
+<!ENTITY fi_process_link_text.label "包含链接">
+<!ENTITY fi_process_link_text.accesskey "L">

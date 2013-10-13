@@ -1,0 +1,15 @@
+﻿<!ENTITY FuriganaSubmenu.label "Furigana ...">
+<!ENTITY FuriganaSubmenu.accesskey "F">
+<!ENTITY InjectContextFurigana.label "einsetzen">
+<!ENTITY InjectContextFurigana.accesskey "I">
+<!ENTITY InjectFuriganaWholePage.label "einsetzen (Ganze Seite)">
+<!ENTITY InjectFuriganaWholePage.accesskey "G">
+<!ENTITY RemoveFuriganaWholePage.label "Furigana entfernen">
+<!ENTITY RemoveFuriganaWholePage.accesskey "E">
+
+<!ENTITY fi_help_welcome.label "'Willkommen' Seite ...">
+<!ENTITY fi_help_welcome.accesskey "W">
+<!ENTITY fi_open_options.label "Optionen ...">
+<!ENTITY fi_open_options.accesskey "O">
+<!ENTITY fi_process_link_text.label "Links einbeziehen">
+<!ENTITY fi_process_link_text.accesskey "L">

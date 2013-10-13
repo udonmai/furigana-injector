@@ -1,0 +1,32 @@
+2011-08-29 22:30:56
+Avg time 3959 µs for 314 POST requests
+Avg time 127 µs for 8109 HEAD requests
+
+2011-08-29 22:35:36
+Avg time 2940 µs for 314 POST requests
+Avg time 173 µs for 8109 HEAD requests
+
+2011-08-31 07:04:52
+Avg time 2507 µs for 314 POST requests
+Avg time 156 µs for 8109 HEAD requests
+
+2011-08-31 22:57:05
+Avg time 2512 µs for 314 POST requests
+Avg time 123 µs for 8109 HEAD requests
+
+2011-08-31 23:00:30
+Avg time 3072 µs for 314 POST requests
+Avg time 139 µs for 8109 HEAD requests
+
+2011-09-03 00:08:27
+Avg time 206 µs for 314 POST requests
+Avg time 139 µs for 8109 HEAD requests
+
+2011-09-03 00:16:35
+Avg time 197 µs for 314 POST requests
+Avg time 136 µs for 8109 HEAD requests
+
+2011-09-03 00:19:12 #N.b ran in valgrind.
+Avg time 1544 µs for 314 POST requests
+Avg time 1002 µs for 8109 HEAD requests
+

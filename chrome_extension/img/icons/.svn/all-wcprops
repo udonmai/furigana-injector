@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons
+END
+default_16_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons/default_16_16.png
+END
+failed_16_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons/failed_16_16.png
+END
+disabled_16_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons/disabled_16_16.png
+END
+processed_16_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons/processed_16_16.png
+END
+partially_processed_16_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons/partially_processed_16_16.png
+END
+processing_16_16.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/162/trunk/chrome_extension/img/icons/processing_16_16.png
+END

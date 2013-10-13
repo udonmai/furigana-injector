@@ -1,0 +1,34 @@
+{
+	"name": "__MSG_manifestExtName__",
+	"version": "1.3.1",
+	"manifest_version": 2,
+	"background": {
+	  "scripts": ["jquery-2.0.2.js", "server_selector_obj.js", "background.js"],
+	  "persistent": false
+	},
+	"content_scripts": [ {
+		"js": ["kanji_content_detect.js"],
+		"matches": ["http://*/*", "https://*/*"]
+	} ],
+	"default_locale": "en",
+	"description": "__MSG_manifestExtDescription__",
+	"icons": { "16": "img/furigana_logo_16_16.png",
+		"32": "img/furigana_logo_32_32.png",
+		"48": "img/furigana_logo_48_48.png",
+		"128": "img/furigana_logo_128_128.png" },
+	"options_page": "user_cp/options.html",
+	"page_action": {
+		"default_icon": {"16": "img/icons/default_16_16.png"},
+		"default_title": "Toggle furigana"
+	},
+	"permissions": ["http://*/*", "https://*/*", "activeTab"],
+	"commands": {
+		"toggle-furigana": {
+			"suggested_key": {
+				"default": "Alt+Shift+F",
+				"mac": "Command+Shift+Y"
+			},
+			"description": "Toggle furigana"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/157/trunk/firefox_extension/content/user_guides
+END
+user_guides.css
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/157/trunk/firefox_extension/content/user_guides/user_guides.css
+END
+sb_icon_arrow.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/157/trunk/firefox_extension/content/user_guides/sb_icon_arrow.png
+END
+kanji_select_finalize_script.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/157/trunk/firefox_extension/content/user_guides/kanji_select_finalize_script.js
+END
+install_welcome.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/157/trunk/firefox_extension/content/user_guides/install_welcome.js
+END
+kanji_select_init_script.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/157/trunk/firefox_extension/content/user_guides/kanji_select_init_script.js
+END

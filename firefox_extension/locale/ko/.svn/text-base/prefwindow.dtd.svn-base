@@ -1,0 +1,10 @@
+﻿<!ENTITY prefwindow.title "Furigana Injector 설정">
+<!ENTITY pane1.title "Furigana Injector 설정">
+<!ENTITY auto_prcs_all_pages.label "모든 웹페이지에서 자동실행">
+<!ENTITY auto_prcs_all_pages.accesskey "A">
+<!ENTITY exclusion_kanji.label "후리가나를 표시하지 않을 한자">
+<!ENTITY exclusion_kanji.accesskey "E">
+<!ENTITY process_link_text.label "링크 안의 한자에도 후리가나 표시">
+<!ENTITY process_link_text.accesskey "L">
+<!ENTITY show_translation_popups.label "Show popup translations">
+<!ENTITY show_translation_popups.accesskey "T">

@@ -1,0 +1,85 @@
+﻿<html>
+<head>
+	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript">
+	function initControlValues() {
+	try{
+		$("#userkanjilist_inp").html(localStorage.getItem("user_kanji_list"));
+		$("#includelinktext_inp")[0].checked = JSON.parse(localStorage.getItem("include_link_text"));
+		$("#show_translations_inp")[0].checked = JSON.parse(localStorage.getItem("show_translations"));
+		alignRubyDplgnrAndGloss();	//This first call will probably be irrelevant. It's the $(window).resize() 
+			//  event handler that will call it at more useful times.
+		if ($("#show_translations_inp")[0].checked) {
+			$("#fi_ruby_doppleganger").fadeIn();
+			$("#fi_gloss_div").fadeIn();
+		}
+		$("#link_sample").find("RT").each(function() {
+			$(this).css({visibility: $("#includelinktext_inp")[0].checked ? "visible" : "hidden"});
+		});
+		
+		$("#userkanjilist_inp").bind("keyup", function() { 
+			var userKanjListInp = $(this);
+			if (userKanjListInp.val() == localStorage.getItem("user_kanji_list"))
+				return;
+			if (window.userKanjiListSaveTimeout)
+				clearTimeout(window.userKanjiListSaveTimeout);
+			window.userKanjiListSaveTimeout = setTimeout(function() {
+				localStorage.setItem("user_kanji_list", userKanjListInp.val());
+				$("#userkanjilist_saved_caption").fadeIn("fast").delay(3000).fadeOut();
+			}, 1000);
+		});
+		$("#includelinktext_inp").bind("change", function() { 
+			var inclLinks = this.checked;
+			localStorage.setItem("include_link_text", inclLinks);	//N.B. saves in JSON format, i.e. the _strings_ "true" or "false", so use JSON.parse() when retrieving the value from localStorage.
+			$("#link_sample").find("RT").each(function() {
+				$(this).css({visibility: inclLinks ? "visible" : "hidden"});
+			});
+		});
+		$("#show_translations_inp").bind("change", function() { 
+			localStorage.setItem("show_translations", this.checked);	//N.B. saves in JSON format, i.e. the _strings_ "true" or "false", so use JSON.parse() when retrieving the value from localStorage.
+			if (this.checked) {
+				$("#fi_ruby_doppleganger").fadeIn();
+				$("#fi_gloss_div").fadeIn();
+			} else {
+				$("#fi_ruby_doppleganger").fadeOut();
+				$("#fi_gloss_div").fadeOut();
+			}
+				
+		});
+	} catch (err) { alert(err); }
+	}
+	
+	function alignRubyDplgnrAndGloss() {
+		var or = $("#orig_ruby");	//I think I should only need the ruby's position to set the doppleganger 
+		var ort = $("#orig_ruby rt");	//  ruby's position top, but it seems I have to use the <rt> elem instead.
+		$("#fi_ruby_doppleganger").css({top: ort.position().top, left: or.position().left});
+		$("#fi_gloss_div").css({top: or.position().top + or.height(), left: or.position().left});
+	}
+	
+	$(window).resize(function() { alignRubyDplgnrAndGloss(); });
+	</script>
+	<link rel="stylesheet" type="text/css" media="all" href="user_guides.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../ruby_gloss.css" />
+</head>
+<body onload="initControlValues();" class="fi_help_page">
+
+	<h2><img src="../img/furigana_logo_48_48.png" style="vertical-align: -10%; margin-right: 8px;"/> Furigana injector options</h2>
+	
+	<div style="margin-bottom: 14px;">
+		<p><label>Include text inside links <input type="checkbox" id="includelinktext_inp"/></label>
+		<span style="font-style: italic; margin-left: 24px;">E.g. <span id="link_sample" class="fakelink"><ruby><rb>今日</rb><rt>きょう</rt></ruby>の<ruby><rb>天気</rb><rt>てんき</rt></ruby></span></span>
+	</div>
+
+	<div>
+		<label for="userkanjilist_inp">Kanji to exclude from furigana injection</label><br/>
+		<textarea id="userkanjilist_inp" cols="80" rows="10" style="margin: 6px 0px;"></textarea> <span id="userkanjilist_saved_caption" style="display: none;">Saved</span><br/>
+		<a href="simple_kanji_level_selector.html">Use simple kanji level selector</a>
+	</div>
+
+	<div>
+		<label for="show_translations_inp">Show translations (from <a href="http://www.aa.tufs.ac.jp/~jwb/cgi-bin/wwwjdic.cgi?1C">WWWJDIC</a>) <input type="checkbox" id="show_translations_inp"/></label> <span style="margin-left: 24px;">...渡辺先生<!--ruby id="fi_ruby_doppleganger" class="ruby_doppleganger">先生<rt>せんせい</rt></ruby><div id="fi_gloss_div" class="hover_gloss" style="display: inline; top: 0; left: 0;"><ul><li>teacher<br/>master<br/>doctor</li><li>with names of teachers, etc. as an honorific</li></ul></div-->の仕事と<ruby id="orig_ruby">素顔<rt>すがお</rt></ruby><ruby id="fi_ruby_doppleganger" class="ruby_doppleganger" style="display: none;">素顔<rt>すがお</rt></ruby><div id="fi_gloss_div" class="hover_gloss" style="display: none;"><ul class="p q r"><li class="s t u">face with no make-up<br/>unpainted face<br/>honesty<br/>frankness</li></ul></div>と時々愉快な仲間達...</span>
+	</div>
+	
+	<p><a href="installation_welcome.html">See "Welcome" page again</a></p>
+</body>
+</html>

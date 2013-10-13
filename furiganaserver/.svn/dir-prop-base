@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 191
+mongoose/mongoose
+mongoose/mongoose.o
+mongoose/_mongoose.so
+mongoose/examples/chat
+fiserver/fiserver
+fiserver/unit_tests
+fiserver/fiserver.access.log
+fiserver/fiserver.err.log
+fiserver/core*
+
+END

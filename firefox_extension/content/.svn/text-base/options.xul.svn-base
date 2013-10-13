@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://furiganainjector/locale/prefwindow.dtd">
+<prefwindow id="furiganainjectorPreferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+  <prefpane id="pane1" label="&pane1.title;">
+    <preferences>
+      <preference id="exclusion_kanji_pref" name="extensions.furiganainjector.exclusion_kanji" type="unichar"/>
+      <preference id="process_link_text_pref" name="extensions.furiganainjector.process_link_text" type="bool"/>
+      <preference id="show_translation_popups_pref" name="extensions.furiganainjector.show_translation_popups" type="bool"/>
+    </preferences>
+    <checkbox id="process_link_text_chkbox" preference="process_link_text_pref" label="&process_link_text.label;" 
+    	accesskey="&process_link_text.accesskey;"/>
+    <checkbox id="show_translation_popups_chkbox" preference="show_translation_popups_pref" label="&show_translation_popups.label;" 
+    	accesskey="&show_translation_popups.accesskey;"/>
+    <label accesskey="&exclusion_kanji.accesskey;" control="textstringpref">&exclusion_kanji.label;</label>
+    <textbox id="exclusion_kanji_txtbox" preference="exclusion_kanji_pref" multiline="true" cols="100" rows="20" maxlength="4000" />
+  </prefpane>
+</prefwindow>

@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9
+END
+json_object_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_object_private.h
+END
+printbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/printbuf.h
+END
+json_object.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_object.c
+END
+json_tokener.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_tokener.c
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/configure
+END
+linkhash.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/linkhash.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/Makefile.in
+END
+config.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.log
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/AUTHORS
+END
+json_object.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_object.h
+END
+json_tokener.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_tokener.h
+END
+linkhash.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/linkhash.h
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/depcomp
+END
+bits.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/bits.h
+END
+json_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_util.c
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.guess
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.h
+END
+json_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json_util.h
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.sub
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/ltmain.sh
+END
+README-WIN32.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/README-WIN32.html
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/INSTALL
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/debug.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/COPYING
+END
+json.pc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json.pc
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/debug.h
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/NEWS
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/Makefile
+END
+json.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json.pc.in
+END
+test1.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/test1.c
+END
+test2.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/test2.c
+END
+test3.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/test3.c
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/configure.in
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/ChangeLog
+END
+config.status
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.status
+END
+stamp-h1
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/stamp-h1
+END
+arraylist.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/arraylist.c
+END
+config.h.win32
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.h.win32
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/README
+END
+json.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/json.h
+END
+arraylist.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/arraylist.h
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/config.h.in
+END
+README.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/README.html
+END
+libtool
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/libtool
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/missing
+END
+printbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/printbuf.c
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/trunk/furiganaserver/json-c-0.9/install-sh
+END
