@@ -21,7 +21,7 @@ enum MecabDict {
   "\r\n";*/
 
 int init_mecab_context(/*args*/) {
-	mtagger = mecab_new2("-r /dev/null -d /usr/lib/mecab/dic/unidic"); //specific dictionary directory
+	mtagger = mecab_new2("-r /dev/null -d /usr/local/Cellar/mecab/0.996/lib/mecab/dic/ipadic"); //specific dictionary directory
 
 	if (!mtagger) {
 		printf("Fatal error: the mecab tagger could not be initialized via the mecab_new2() function\n");

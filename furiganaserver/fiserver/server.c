@@ -130,7 +130,10 @@ static void handle_furigana_request(struct mg_connection *conn) {
 static void *fiserver_event_handler(enum mg_event event,
                            struct mg_connection *conn,
                            const struct mg_request_info *request_info) {
-  void *processed = "yes";
+  void *processed;
+  char yes[] = "yes";
+  processed = yes;
+
 
   if (event == MG_NEW_REQUEST) {
     if (strcmp(request_info->uri, ajax_service_url) == 0) {
