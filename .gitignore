@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 bject files
+=======
+# Object files
+>>>>>>> cd6167a9b5291fdbfa0b1163e51db2d777b8d7ee
 *.o
 *.ko
 
 # Libraries
+<<<<<<< HEAD
 # *.lib
 # *.a
 #
@@ -19,3 +24,18 @@ bject files
 #
 .DS_Store
 
+=======
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> cd6167a9b5291fdbfa0b1163e51db2d777b8d7ee
