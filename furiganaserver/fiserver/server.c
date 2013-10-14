@@ -9,8 +9,8 @@
 #include <pthread.h>
 
 #include "ficommon.h"
-#include "mongoose.h"
-#include "json.h"
+#include "../mongoose/mongoose.h"
+#include "../json-c-0.9/json.h"
 
 static int exit_flag; //global var that signal handlers will set.
 static size_t mg_read_max_req_size; //Will be initialized after mongoose context is created.
@@ -162,7 +162,7 @@ static void *fiserver_event_handler(enum mg_event event,
 static const char *options[] = {
   "enable_directory_listing", "no",
   //"document_root", "html",
-  "listening_ports", "80",
+  "listening_ports", "8081",
   //"ssl_certificate", "ssl_cert.pem",
   "num_threads", "5",
   "max_request_size", "16384",
@@ -186,9 +186,9 @@ int main(void) {
   mg_read_max_req_size = atoi(mg_get_option(ctx, "max_request_size"));
 
   //// Wait until enter is pressed, then exit
-  //printf("Furigana Injector server started on port(s) %s, press enter to quit.\n",
-  //       mg_get_option(ctx, "listening_ports"));
-  //getchar();
+  printf("Furigana Injector server started on port(s) %s, press enter to quit.\n",
+         mg_get_option(ctx, "listening_ports"));
+  getchar();
   while (exit_flag == 0) {
     sleep(1);
   }
