@@ -25,7 +25,7 @@ if (localStorage.getItem("show_translations") === null) {
 
 var furiganaServerRequestsQueue = {};	//This object will be used like a hash
 /*These URLs must match URL patterns in the "permissions" item in the manifest file. */
-var furiganaServiceURLsList = [ "http://fi.yayakoshi.net/furiganainjector", "http://fi2.yayakoshi.net/furiganainjector" ];
+var furiganaServiceURLsList = [ "http://localhost:8081/furiganainjector" ];
 /*ServerSelector defined in server_selector_obj.js. Selects a working furiganaServerUrl asynchronously.*/
 var fiSvrSel = new ServerSelector(furiganaServiceURLsList, confirmServerUrl, onNoFuriganaServerFound, "mod_furiganainjector");
 
